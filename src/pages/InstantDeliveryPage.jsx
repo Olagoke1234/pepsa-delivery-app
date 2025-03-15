@@ -15,8 +15,8 @@ const InstantDeliveryPage = () => {
         backgroundColor: "#FFFFFF",
         boxShadow: "0px 0px 4px 4px rgba(0, 0, 0, 0.25)",
         paddingTop: "10px",
-        // width: "100%",
-        width: "500px",
+        width: "100%",
+        // width: "500px",
       }}
     >
       <header

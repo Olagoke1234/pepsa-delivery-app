@@ -13,8 +13,8 @@ const Footer = () => {
         style={{
           backgroundColor: "#9D0208",
           color: "white",
-          // width: "100%",
-          width: "500px",
+          width: "100%",
+          // width: "500px",
           height: "62px",
           padding: "10px 0px",
           display: "flex",
