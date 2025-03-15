@@ -4,6 +4,7 @@ import WelcomePage from "./pages/WelcomePage.jsx";
 import InstantDeliveryPage from "./pages/InstantDeliveryPage.jsx";
 import PickUpDetailsPage from "./pages/PickUpDetailsPage.jsx";
 import DeliveringToPage from "./pages/DeliveringToPage.jsx";
+import ScheduleDeliveryPage from "./pages/ScheduleDeliveryPage.jsx";
 import "./App.css";
 import "./index.css";
 
@@ -15,6 +16,7 @@ function App() {
         <InstantDeliveryPage />
         <PickUpDetailsPage />
         <DeliveringToPage />
+        <ScheduleDeliveryPage />
       </div>
     </>
   );
