@@ -15,7 +15,8 @@ const WelcomePage = () => {
       className="welcome-page"
       style={{
         backgroundColor: "#FFFFFF",
-        boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+        boxShadow: "0px 0px 4px 4px rgba(0, 0, 0, 0.25)",
+        paddingTop: "10px",
       }}
     >
       <header
