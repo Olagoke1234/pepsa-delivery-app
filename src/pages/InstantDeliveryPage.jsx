@@ -344,7 +344,7 @@ const InstantDeliveryPage = () => {
               fontSize: "14px",
             }}
           >
-            Request Delivery
+            Continue
           </button>
         </div>
       </div>
