@@ -17,6 +17,7 @@ const WelcomePage = () => {
         backgroundColor: "#FFFFFF",
         boxShadow: "0px 0px 4px 4px rgba(0, 0, 0, 0.25)",
         paddingTop: "10px",
+        width: "100%",
       }}
     >
       <header
@@ -349,7 +350,7 @@ const WelcomePage = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
