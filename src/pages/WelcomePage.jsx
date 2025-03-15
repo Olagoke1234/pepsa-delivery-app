@@ -48,7 +48,7 @@ const WelcomePage = () => {
             />
           </div>
           <div>
-            <h1 style={{ fontSize: "22px" }}>Welcome George</h1>
+            <h1 style={{ fontSize: "18px" }}>Welcome George</h1>
           </div>
         </div>
         <div className="header-menu">
@@ -59,7 +59,16 @@ const WelcomePage = () => {
           />
         </div>
       </header>
-      <div className="delivery-choice" style={{ padding: "0 20px" }}>
+      <div
+        className="delivery-choice"
+        style={{
+          padding: "0 20px",
+          fontSize: "14px",
+          fontWeight: "600",
+          color: "#111111",
+          lineHeight: "120%",
+        }}
+      >
         <p>What would you like to do?</p>
       </div>
       <div
@@ -78,7 +87,7 @@ const WelcomePage = () => {
         <div className="delivery-type-name">
           <p
             style={{
-              fontSize: "18px",
+              fontSize: "14px",
               fontWeight: "600",
               color: "#111111",
               lineHeight: "120%",
@@ -89,7 +98,12 @@ const WelcomePage = () => {
         </div>
         <div className="delivery-type-description">
           <p
-            style={{ color: "#4F4F4F", lineHeight: "100%", marginTop: "-6px" }}
+            style={{
+              color: "#4F4F4F",
+              lineHeight: "100%",
+              marginTop: "-6px",
+              fontSize: "12px",
+            }}
           >
             Agent takes only your package and delivers instantly
           </p>
@@ -98,8 +112,8 @@ const WelcomePage = () => {
           className="delivery-background-img"
           style={{
             position: "absolute",
-            transform: "scale(1.25)",
-            bottom: 13,
+            transform: "scale(1)",
+            bottom: 6,
             right: 30,
             opacity: "0.1",
           }}
@@ -128,7 +142,7 @@ const WelcomePage = () => {
         <div className="delivery-type-name">
           <p
             style={{
-              fontSize: "18px",
+              fontSize: "14px",
               fontWeight: "600",
               color: "#111111",
               lineHeight: "120%",
@@ -139,7 +153,12 @@ const WelcomePage = () => {
         </div>
         <div className="delivery-type-description">
           <p
-            style={{ color: "#4F4F4F", lineHeight: "100%", marginTop: "-6px" }}
+            style={{
+              color: "#4F4F4F",
+              lineHeight: "100%",
+              marginTop: "-6px",
+              fontSize: "12px",
+            }}
           >
             Agent comes to pick up on your specified date and time
           </p>
@@ -148,8 +167,8 @@ const WelcomePage = () => {
           className="delivery-background-img"
           style={{
             position: "absolute",
-            transform: "scale(1.25)",
-            bottom: 13,
+            transform: "scale(1)",
+            bottom: 6,
             right: 30,
             opacity: "0.1",
           }}
@@ -179,7 +198,7 @@ const WelcomePage = () => {
               style={{
                 color: "#111111",
                 fontWeight: "600",
-                fontSize: "16px",
+                fontSize: "14px",
               }}
             >
               History
@@ -187,7 +206,7 @@ const WelcomePage = () => {
           </div>
           <div>
             <p
-              style={{ color: "#9D0208", fontSize: "16px", fontWeight: "500" }}
+              style={{ color: "#9D0208", fontSize: "14px", fontWeight: "500" }}
             >
               View All
             </p>
@@ -207,14 +226,16 @@ const WelcomePage = () => {
               <h4
                 style={{
                   color: "#9D0208",
-                  fontSize: "17px",
+                  fontSize: "16px",
                   fontWeight: "600",
                   textShadow: "0px 2px 2px rgba(0, 0, 0, 0.25)",
                 }}
               >
                 ORDB1234
               </h4>
-              <p style={{ marginTop: "-20px" }}>Receipient: Paul Pogba</p>
+              <p style={{ marginTop: "-20px", fontSize: "14px" }}>
+                Receipient: Paul Pogba
+              </p>
             </div>
             <div className="status">
               <button
@@ -223,6 +244,7 @@ const WelcomePage = () => {
                   color: "white",
                   padding: "5px 10px",
                   borderRadius: "5px",
+                  fontSize: "12px",
                 }}
               >
                 Completed
@@ -255,14 +277,14 @@ const WelcomePage = () => {
                     style={{ marginRight: "10px" }}
                   />
                 </div>
-                <div className="drop-off-text" style={{ fontSize: "16px" }}>
+                <div className="drop-off-text" style={{ fontSize: "14px" }}>
                   Drop Off
                 </div>
               </div>
               <p style={{ marginTop: "3px", color: "#9D0208" }}>
                 Faith Bible Church
               </p>
-              <p style={{ marginTop: "-15px", fontSize: "14px" }}>
+              <p style={{ marginTop: "-15px", fontSize: "12px" }}>
                 12th January 2020, 2:43pm
               </p>
             </div>
@@ -289,14 +311,16 @@ const WelcomePage = () => {
               <h4
                 style={{
                   color: "#9D0208",
-                  fontSize: "17px",
+                  fontSize: "16px",
                   fontWeight: "600",
                   textShadow: "0px 2px 2px rgba(0, 0, 0, 0.25)",
                 }}
               >
                 ORDB1234
               </h4>
-              <p style={{ marginTop: "-20px" }}>Receipient: Paul Pogba</p>
+              <p style={{ marginTop: "-20px", fontSize: "14px" }}>
+                Receipient: Paul Pogba
+              </p>
             </div>
             <div className="status">
               <button
@@ -305,6 +329,7 @@ const WelcomePage = () => {
                   color: "white",
                   padding: "5px 10px",
                   borderRadius: "5px",
+                  fontSize: "12px",
                 }}
               >
                 Completed
@@ -337,14 +362,16 @@ const WelcomePage = () => {
                     style={{ marginRight: "10px" }}
                   />
                 </div>
-                <div className="drop-off-text" style={{ fontSize: "16px" }}>
+                <div className="drop-off-text" style={{ fontSize: "14px" }}>
                   Drop Off
                 </div>
               </div>
-              <p style={{ marginTop: "3px", color: "#9D0208" }}>
+              <p
+                style={{ marginTop: "3px", color: "#9D0208", fontSize: "14px" }}
+              >
                 Faith Bible Church
               </p>
-              <p style={{ marginTop: "-15px", fontSize: "14px" }}>
+              <p style={{ marginTop: "-15px", fontSize: "12px" }}>
                 12th January 2020, 2:43pm
               </p>
             </div>
