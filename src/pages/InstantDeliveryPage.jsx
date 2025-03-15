@@ -160,7 +160,7 @@ const InstantDeliveryPage = () => {
             <br />
             <select
               style={{
-                maxWidth: "100%",
+                width: "100%",
                 border: "1px solid #ccc",
                 borderRadius: "5px",
                 padding: " 10px",
