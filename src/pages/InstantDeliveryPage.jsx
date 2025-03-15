@@ -17,6 +17,7 @@ const InstantDeliveryPage = () => {
         paddingTop: "10px",
         // maxWidth: "350px",
         width: "100%",
+        overflow: "hidden",
       }}
     >
       <header

@@ -19,6 +19,7 @@ const WelcomePage = () => {
         paddingTop: "10px",
         width: "100%",
         // maxWidth: "350px",
+        overflowX: "hidden",
       }}
     >
       <header
