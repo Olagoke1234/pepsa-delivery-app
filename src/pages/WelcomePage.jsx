@@ -18,7 +18,7 @@ const WelcomePage = () => {
         boxShadow: "0px 0px 4px 4px rgba(0, 0, 0, 0.25)",
         paddingTop: "10px",
         width: "100%",
-        maxWidth: "400px",
+        maxWidth: "300px",
       }}
     >
       <header

@@ -14,7 +14,7 @@ const Footer = () => {
           backgroundColor: "#9D0208",
           color: "white",
           width: "100%",
-          maxWidth: "400px",
+          maxWidth: "300px",
           height: "62px",
           padding: "10px 0px",
           display: "flex",

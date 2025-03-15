@@ -15,7 +15,7 @@ const InstantDeliveryPage = () => {
         backgroundColor: "#FFFFFF",
         boxShadow: "0px 0px 4px 4px rgba(0, 0, 0, 0.25)",
         paddingTop: "10px",
-        maxWidth: "400px",
+        maxWidth: "300px",
         width: "100%",
       }}
     >
@@ -236,8 +236,8 @@ const InstantDeliveryPage = () => {
                 src={Bike}
                 alt="Bike"
                 style={{
-                  //   width: "80px",
-                  //   height: "80px",
+                  width: "80px",
+                  height: "80px",
                   borderRadius: "5px",
                   flex: "1",
                   cursor: "pointer",
@@ -249,8 +249,8 @@ const InstantDeliveryPage = () => {
                 src={Car}
                 alt="Car"
                 style={{
-                  //   width: "80px",
-                  //   height: "80px",
+                  width: "80px",
+                  height: "80px",
                   borderRadius: "5px",
                   flex: "1",
                   cursor: "pointer",
@@ -262,8 +262,8 @@ const InstantDeliveryPage = () => {
                 src={Van}
                 alt="Van"
                 style={{
-                  //   width: "80px",
-                  //   height: "80px",
+                  width: "80px",
+                  height: "80px",
                   borderRadius: "5px",
                   flex: "1",
                   cursor: "pointer",
