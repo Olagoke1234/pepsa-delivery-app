@@ -236,8 +236,8 @@ const InstantDeliveryPage = () => {
                 src={Bike}
                 alt="Bike"
                 style={{
-                  width: "80px",
-                  height: "80px",
+                  width: "100px",
+                  height: "100px",
                   borderRadius: "5px",
                   flex: "1",
                   cursor: "pointer",
@@ -249,8 +249,8 @@ const InstantDeliveryPage = () => {
                 src={Car}
                 alt="Car"
                 style={{
-                  width: "80px",
-                  height: "80px",
+                  width: "100px",
+                  height: "100px",
                   borderRadius: "5px",
                   flex: "1",
                   cursor: "pointer",
@@ -262,8 +262,8 @@ const InstantDeliveryPage = () => {
                 src={Van}
                 alt="Van"
                 style={{
-                  width: "80px",
-                  height: "80px",
+                  width: "100px",
+                  height: "100px",
                   borderRadius: "5px",
                   flex: "1",
                   cursor: "pointer",
