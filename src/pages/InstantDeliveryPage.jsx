@@ -15,7 +15,7 @@ const InstantDeliveryPage = () => {
         backgroundColor: "#FFFFFF",
         boxShadow: "0px 0px 4px 4px rgba(0, 0, 0, 0.25)",
         paddingTop: "10px",
-        width: "100%",
+        maxWidth: "100%",
         // width: "500px",
       }}
     >
@@ -159,7 +159,7 @@ const InstantDeliveryPage = () => {
             <br />
             <select
               style={{
-                width: "100%",
+                maxWidth: "100%",
                 border: "1px solid #ccc",
                 borderRadius: "5px",
                 padding: " 10px",
@@ -226,7 +226,7 @@ const InstantDeliveryPage = () => {
             className="vehicles-container"
             style={{
               display: "flex",
-              justifyContent: "center",
+              justifyContent: "space-evenly",
               alignItems: "center",
               gap: "10px",
             }}
