@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="container">
-        {/* <WelcomePage /> */}
+        <WelcomePage />
         <InstantDeliveryPage />
       </div>
     </>
