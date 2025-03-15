@@ -273,6 +273,80 @@ const InstantDeliveryPage = () => {
             </div>
           </div>
         </div>
+        <div
+          className="return-order"
+          style={{
+            display: "flex",
+            justifyContent: "flex-start",
+            alignItems: "center",
+            marginTop: "20px",
+          }}
+        >
+          <div className="radio">
+            <input
+              type="radio"
+              id="return-order"
+              style={{
+                borderRadius: "50%",
+                accentColor: "#9D0208",
+                marginRight: "10px",
+                transform: "scale(1.5)",
+              }}
+            />
+            <label
+              htmlFor="return-order"
+              style={{
+                fontSize: "14px",
+                fontWeight: "500",
+                color: "#9D0208",
+                lineHeight: "20px",
+              }}
+            >
+              Return order
+            </label>
+          </div>
+        </div>
+        <div className="terms-conditions">
+          <input
+            type="checkbox"
+            id="terms-conditions"
+            style={{ marginRight: "10px", accentColor: "#9D0208" }}
+          />
+          <label htmlFor="terms-conditions" style={{ fontSize: "12px" }}>
+            I accept all the Terms & Condition and there are no restricted items
+            in the package.
+          </label>
+        </div>
+        <div className="price">
+          <div className="price-text">
+            <p style={{ fontWeight: "700", fontSize: "14px" }}>Price</p>
+            <p
+              style={{
+                fontWeight: "700",
+                fontSize: "20px",
+                textAlign: "center",
+              }}
+            >
+              #4,500
+            </p>
+          </div>
+        </div>
+        <div className="button-section">
+          <button
+            style={{
+              width: "100%",
+              padding: "10px",
+              borderRadius: "5px",
+              backgroundColor: "#9D0208",
+              color: "#fff",
+              border: "none",
+              cursor: "pointer",
+              fontSize: "14px",
+            }}
+          >
+            Request Delivery
+          </button>
+        </div>
       </div>
     </div>
   );
