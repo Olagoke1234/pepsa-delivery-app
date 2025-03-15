@@ -74,7 +74,7 @@ const WelcomePage = () => {
       <div
         className="delivery-card"
         style={{
-          margin: " 20px",
+          margin: " 10px 20px",
           backgroundColor: "#FFA2A6",
           position: "relative",
           padding: "20px",
@@ -129,7 +129,7 @@ const WelcomePage = () => {
       <div
         className="delivery-card"
         style={{
-          margin: " 20px",
+          margin: " 10px 20px",
           backgroundColor: "#FFEBEB",
           position: "relative",
           padding: "20px",
@@ -185,6 +185,7 @@ const WelcomePage = () => {
         <div
           className="history-section-header"
           style={{
+            margin: "0",
             display: "flex",
             padding: "0 20px",
             justifyContent: "space-between",
@@ -220,6 +221,7 @@ const WelcomePage = () => {
               justifyContent: "space-between",
               alignItems: "center",
               padding: "0 40px",
+              marginTop: "-10px",
             }}
           >
             <div className="recipient-detail">
