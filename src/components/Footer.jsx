@@ -15,7 +15,7 @@ const Footer = () => {
           color: "white",
           width: "100%",
           // maxWidth: "350px",
-          height: "62px",
+          height: "52px",
           padding: "10px 0px",
           display: "flex",
           flexDirection: "row",
@@ -24,27 +24,39 @@ const Footer = () => {
         }}
       >
         <div>
-          <img src={Wallet} alt="Wallet Link" style={{ cursor: "pointer" }} />
+          <img
+            src={Wallet}
+            alt="Wallet Link"
+            style={{ cursor: "pointer", width: "30px", height: "40px" }}
+          />
         </div>
         <div>
-          <img src={Bills} alt="Bills Link" style={{ cursor: "pointer" }} />
+          <img
+            src={Bills}
+            alt="Bills Link"
+            style={{ cursor: "pointer", width: "40px", height: "50px" }}
+          />
         </div>
         <div>
           <img
             src={PepsaLogoWhite}
             alt="PepsaLogo Link"
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", width: "60px", height: "60px" }}
           />
         </div>
         <div>
           <img
             src={Delivery}
             alt="Delivery Link"
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", width: "40px", height: "40px" }}
           />
         </div>
         <div>
-          <img src={Switch} alt="Switch Link" style={{ cursor: "pointer" }} />
+          <img
+            src={Switch}
+            alt="Switch Link"
+            style={{ cursor: "pointer", width: "30px", height: "40px" }}
+          />
         </div>
       </div>
     </footer>
