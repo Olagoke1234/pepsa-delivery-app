@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
 import Caret from "../assets/images/caret-back.png";
 import HeaderMenu from "../assets/images/header-menu.png";
@@ -10,6 +11,16 @@ import DropOff from "../assets/images/drop-off.png";
 import LocationIcon from "../assets/images/location.png";
 
 const WelcomePage = () => {
+  const navigate = useNavigate();
+
+  const handleInstantDeliveryClick = () => {
+    navigate("/instant-delivery-page");
+  };
+
+  const handleScheduledDeliveryClick = () => {
+    navigate("/schedule-delivery-page");
+  };
+
   return (
     <div
       className="welcome-page"
@@ -81,6 +92,7 @@ const WelcomePage = () => {
           padding: "20px",
           borderRadius: "5px",
         }}
+        onClick={handleInstantDeliveryClick}
       >
         <div className="delivery-type-icon">
           <img src={InstantDelivery} alt="Instant Delivery Icon" />
@@ -136,6 +148,7 @@ const WelcomePage = () => {
           padding: "20px",
           borderRadius: "5px",
         }}
+        onClick={handleScheduledDeliveryClick}
       >
         <div className="delivery-type-icon">
           <img src={Timer} alt="Instant Delivery Icon" />

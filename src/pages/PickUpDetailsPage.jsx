@@ -1,8 +1,20 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Caret from "../assets/images/caret-back.png";
 import ProfileIcon from "../assets/images/profile-icon.png";
 
 const PickUpDetailsPage = () => {
+  const navigate = useNavigate();
+
+  const handlePickUpDetailsClick = () => {
+    navigate("/instant-delivery-page", { replace: false });
+  };
+
+  const handleGoBack = (event) => {
+    event.preventDefault();
+    navigate(-1);
+  };
+
   return (
     <div
       className="profile-details-page"
@@ -39,6 +51,7 @@ const PickUpDetailsPage = () => {
               src={Caret}
               alt="Back Button"
               style={{ marginRight: "15px", cursor: "pointer" }}
+              onClick={handleGoBack}
             />
           </div>
           <div
@@ -174,6 +187,7 @@ const PickUpDetailsPage = () => {
                 fontWeight: "600",
                 width: "50%",
               }}
+              onClick={handleGoBack}
             >
               Back
             </button>
@@ -185,6 +199,7 @@ const PickUpDetailsPage = () => {
                 fontWeight: "600",
                 width: "50%",
               }}
+              onClick={handlePickUpDetailsClick}
             >
               Submit
             </button>

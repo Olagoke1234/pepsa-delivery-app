@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Caret from "../assets/images/caret-back.png";
 import LocationIcon from "../assets/images/location.png";
 import DeliveryLOcationIcon from "../assets/images/delivery-location.png";
@@ -8,6 +9,12 @@ import Bike from "../assets/images/bike-1.png";
 import Van from "../assets/images/van-1.png";
 
 const ScheduleDeliveryPage = () => {
+  const navigate = useNavigate();
+
+  const handleDeliveryToClick = () => {
+    navigate("/delivering-to-page", { replace: false });
+  };
+
   return (
     <div
       className="instant-delivery-page"
@@ -44,6 +51,7 @@ const ScheduleDeliveryPage = () => {
               src={Caret}
               alt="Back Button"
               style={{ marginRight: "15px", cursor: "pointer" }}
+              onClick={() => navigate(-1)}
             />
           </div>
           <div
@@ -400,6 +408,7 @@ const ScheduleDeliveryPage = () => {
               cursor: "pointer",
               fontSize: "14px",
             }}
+            onClick={handleDeliveryToClick}
           >
             Continue
           </button>
